@@ -1,0 +1,43 @@
+{
+	"fileType": "feats-sublist",
+	"siteVersion": "1.185.1",
+	"name": "war cleric feats",
+	"saveId": "569a44e0-5ffb-49ba-8fb5-080290af5623",
+	"items": [
+		{
+			"h": "great%20weapon%20master_phb"
+		},
+		{
+			"h": "metamagic%20adept_tce"
+		},
+		{
+			"h": "war%20caster_phb"
+		},
+		{
+			"h": "savage%20attacker_phb"
+		},
+		{
+			"h": "ritual%20caster_phb"
+		},
+		{
+			"h": "lucky_phb"
+		},
+		{
+			"h": "heavily%20armored_phb"
+		},
+		{
+			"h": "healer_phb"
+		},
+		{
+			"h": "charger_phb"
+		},
+		{
+			"h": "divinely%20favored_dsotdq"
+		}
+	],
+	"sources": [
+		"PHB",
+		"TCE",
+		"DSotDQ"
+	]
+}

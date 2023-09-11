@@ -1,0 +1,338 @@
+{
+	"fileType": "dm-screen",
+	"siteVersion": "1.186.0",
+	"w": 4,
+	"h": 2,
+	"ctc": false,
+	"fs": false,
+	"lk": false,
+	"ps": [
+		{
+			"x": 0,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 2,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 3,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 1,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 5,
+			"s": {
+				"s": "NUMBER",
+				"d": "DESC",
+				"ri": true,
+				"m": false,
+				"rg": false,
+				"rri": false,
+				"g": true,
+				"p": true,
+				"a": false,
+				"k": false,
+				"piHp": false,
+				"piHm": false,
+				"piV": true,
+				"piO": false,
+				"c": [],
+				"cndc": [],
+				"r": [
+					{
+						"id": "a6c1a3dc-ae5c-4080-ae71-ac76d20cd3a2",
+						"n": "Bearded Devil",
+						"h": 52,
+						"g": 52,
+						"i": 13,
+						"a": false,
+						"s": "MM",
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "89a93276-dae3-4461-924d-f333620f28e7",
+						"n": "Ulrich",
+						"a": true,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "6aa84209-13ea-47e8-8c15-cdd747e2a900",
+						"n": "Nemethriel",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "4f712631-0e7e-4cc3-8c9c-2f03e52befa3",
+						"n": "Helva",
+						"h": 14,
+						"g": 14,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "fde85a2e-1844-4ae7-92e9-1647a8e35ae2",
+						"n": "Finan",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "831681ed-d985-43c4-9d00-1045f8195db4",
+						"n": "Faythel",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "296fe97b-393b-4f38-bda6-6d101cc55b76",
+						"n": "Aylistin",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					}
+				],
+				"rdp": [
+					{
+						"id": "4f712631-0e7e-4cc3-8c9c-2f03e52befa3",
+						"n": "Helva",
+						"h": 14,
+						"g": 14,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "296fe97b-393b-4f38-bda6-6d101cc55b76",
+						"n": "Aylistin",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "6aa84209-13ea-47e8-8c15-cdd747e2a900",
+						"n": "Nemethriel",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "fde85a2e-1844-4ae7-92e9-1647a8e35ae2",
+						"n": "Finan",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "831681ed-d985-43c4-9d00-1045f8195db4",
+						"n": "Faythel",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "89a93276-dae3-4461-924d-f333620f28e7",
+						"n": "Ulrich",
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					}
+				],
+				"n": 1
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 2,
+				"h": "Conditions"
+			}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 2,
+				"h": "Casting a Spell"
+			}
+		},
+		{
+			"x": 3,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "MM",
+				"u": "spined%20devil_mm"
+			},
+			"a": [
+				{
+					"t": 1,
+					"c": {
+						"p": "bestiary.html",
+						"s": "WDMM",
+						"u": "intelligent%20black%20pudding_wdmm"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "bestiary.html",
+						"s": "MM",
+						"u": "bearded%20devil_mm"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "bestiary.html",
+						"s": "MM",
+						"u": "spined%20devil_mm"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "bestiary.html",
+						"s": "MM",
+						"u": "young%20brass%20dragon_mm"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "bestiary.html",
+						"s": "CM",
+						"u": "lightning%20golem_cm"
+					}
+				}
+			],
+			"b": 2
+		}
+	],
+	"ex": [
+		{
+			"x": 3,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "BGG",
+				"u": "altisaur_bgg"
+			},
+			"a": [
+				{
+					"t": 51,
+					"s": {}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "bestiary.html",
+						"s": "BGG",
+						"u": "altisaur_bgg"
+					}
+				}
+			],
+			"b": 1
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 1,
+				"h": "Wealth"
+			}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 1,
+				"h": "Trade Goods"
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 1,
+				"h": "Adventuring Gear"
+			}
+		}
+	]
+}

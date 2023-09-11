@@ -1,0 +1,49 @@
+{
+	"fileType": "encounter",
+	"siteVersion": "1.186.0",
+	"items": [
+		{
+			"h": "intelligent%20black%20pudding_wdmm",
+			"c": 1
+		},
+		{
+			"h": "bearded%20devil_mm",
+			"c": 1
+		},
+		{
+			"h": "spined%20devil_mm",
+			"c": 1
+		},
+		{
+			"h": "young%20brass%20dragon_mm",
+			"c": 1
+		},
+		{
+			"h": "lightning%20golem_cm",
+			"c": 1
+		}
+	],
+	"sources": [
+		"WDMM",
+		"MM",
+		"CM"
+	],
+	"name": "dreamscape enc",
+	"saveId": "cb8e95df-0800-4d28-b1d4-9cc8b42d942e",
+	"playersSimple": [
+		{
+			"count": 4,
+			"level": 1
+		}
+	],
+	"isAdvanced": false,
+	"colsExtraAdvanced": [],
+	"playersAdvanced": [
+		{
+			"name": "",
+			"level": 1,
+			"extras": [],
+			"extraCols": []
+		}
+	]
+}

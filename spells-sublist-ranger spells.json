@@ -1,0 +1,20 @@
+{
+	"fileType": "spells-sublist",
+	"siteVersion": "1.186.0",
+	"name": "ranger spells",
+	"saveId": "99bdf9bd-fb37-4124-9ff5-e07fe9b8751b",
+	"items": [
+		{
+			"h": "cure%20wounds_phb"
+		},
+		{
+			"h": "hunter's%20mark_phb"
+		},
+		{
+			"h": "hail%20of%20thorns_phb"
+		}
+	],
+	"sources": [
+		"PHB"
+	]
+}

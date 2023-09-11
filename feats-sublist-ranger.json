@@ -1,0 +1,21 @@
+{
+	"fileType": "feats-sublist",
+	"siteVersion": "1.185.1",
+	"name": "ranger",
+	"saveId": "7e4102af-797b-4a7c-9f18-3d6e94a9d61a",
+	"items": [
+		{
+			"h": "piercer_tce"
+		},
+		{
+			"h": "crossbow%20expert_phb"
+		},
+		{
+			"h": "sharpshooter_phb"
+		}
+	],
+	"sources": [
+		"TCE",
+		"PHB"
+	]
+}

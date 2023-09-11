@@ -1,0 +1,234 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"full": "The Moon Blade Cleric",
+				"json": "EndelMoonBlade",
+				"abbreviation": "tMoE",
+				"authors": [
+					"Endel"
+				],
+				"version": "2023.0"
+			}
+		],
+		"dateAdded": 1667607218,
+		"dateLastModified": 1689601324
+	},
+	"monster": [],
+	"subclass": [
+		{
+			"name": "Moon Blade Domain",
+			"source": "EndelMoonBlade",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"shortName": "Moon Blade",
+			"subclassFeatures": [
+				"Moon Blade Domain|Cleric|PHB|Moon Blade|EndelMoonBlade|1",
+				"Channel Divinity: Blessing of the Full Moon|Cleric|PHB|Moon Blade|EndelMoonBlade|2",
+				"Channel Divinity: Mind of the Twin Moons|Cleric|PHB|Moon Blade|EndelMoonBlade|6",
+				"Lunar Strike|Cleric|PHB|Moon Blade|EndelMoonBlade|8",
+				"Eclipse of Ill Omen|Cleric|PHB|Moon Blade|EndelMoonBlade|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Moon Blade Domain",
+			"source": "EndelMoonBlade",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon Blade",
+			"subclassSource": "EndelMoonBlade",
+			"page": 1,
+			"level": 1,
+			"entries": [
+				"The Moon Blades are clerics that sworn their blades to protect those who are in need, fight against tyranny and defend freedom at all costs.",
+				"The first Moon Blades were devoted to Seleinawen, the goddess of the moon. Guided by her kindness, ",
+				"in ancient times, they fought courageously to liberate the shadow elves from the tyranny of Solavon and his followers who deemed them tainted servants of chaos, deserving of either lifetime in imprisonment or death.",
+				"And again in the great war of Cryselthaar's Rising against the Vaerings whose only goal is the enslavement of all living things.",
+				"The Moon Blades' power come from their faith to Seleinawen, but a select few of the most renown warriors within the order have claimed that the source behind the Moon Blades' powers comes from another being,",
+				"far more powerful than Seleinawen. Such claims were highly controversial within the order though and in the end they were dismissed.",
+				"The Moon Blade's creed is the preservation of freedom, wherever they may travel through the realm they are always eager",
+				"to protect the weak and the oppressed, and they are not afraid to wield their blades to confront injustice wherever they may find it.",
+				{
+					"type": "table",
+					"caption": "Moon Blade Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell faerie fire}, {@spell searing smite}"
+						],
+						[
+							"3rd",
+							"{@spell moonbeam}, {@spell invisibility}"
+						],
+						[
+							"5th",
+							"{@spell haste}, {@spell Major Image}"
+						],
+						[
+							"7th",
+							"{@spell greater invisibility}, {@spell Hallucinatory Terrain}"
+						],
+						[
+							"9th",
+							"{@spell Wall of Light}, {@spell greater restoration}"
+						]
+					]
+				},
+				{
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"When you choose this domain at 1st level, you gain proficiency with Heavy Armor and all Martial Weapons."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Moon's Crescent Blade",
+					"entries": [
+						"You can add your wisdom modifier on attacks and damage rolls made by a weapon"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Clarity of Moon's Light",
+					"entries": [
+						"When you choose this domain at 1st level, you learn to shine light upon the mind's most dire moments, shielding those you protect.",
+						"When a creature within 30 feet of you that you can see makes a Wisdom saving throw, you can use your reaction to grant that creature advantage on the save.",
+						"You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Blessing of the Full Moon",
+			"source": "EndelMoonBlade",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon Blade",
+			"subclassSource": "EndelMoonBlade",
+			"page": 1,
+			"header": 1,
+			"level": 2,
+			"entries": [
+				"You use your Channel Divinity to dance and invoke the power of the moonlight for 1 minute, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Starting at 2nd level, you can use your Channel Divinity to infuse your allies with bestial power.",
+						"As an action, you instill a willing creature of your choice within 30 feet of you that you can see with one of the following blessings of your choice:",
+						"Blessing of the Blue Moon. For 1 hour, the blessed creature's speed increases by 10 feet,",
+						"and it has advantage on Wisdom (Perception or Survival) checks involving smell or made to track a creature.",
+						"Blessing of the Crimson Moon. For 10 minutes, the blessed creature has advantage on attack rolls against a",
+						"target if at least one of the blessed creature's allies is within 5 feet of the target and the ally isn't incapacitated."
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Mind of the Twin Moons",
+			"source": "EndelMoonBlade",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon Blade",
+			"subclassSource": "EndelMoonBlade",
+			"page": 1,
+			"header": 1,
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to invoke the twofold power of Arkan's twin moons.",
+				"By expending one use of Channel Divinity, you can cast a second concentration spell while already concentrating on a first spell,",
+				"as long as both spells are on your list of Moon Domain spells. If you need to make a Constitution saving throw to maintain your concentration on both spells,",
+				"you make the save with disadvantage. On a failure, you lose concentration on both spells."
+			]
+		},
+		{
+			"name": "Lunar Strike",
+			"source": "EndelMoonBlade",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon Blade",
+			"subclassSource": "EndelMoonBlade",
+			"page": 1,
+			"header": 1,
+			"level": 8,
+			"entries": [
+				"You gain the ability to infuse your weapon strikes with divine energy.",
+				"Once on each of your turns when you hit a creature with a weapon attack,",
+				"Moonfire Damage: you cause the attack to deal extra radiant damage depending on level.",
+				"Moonlight Damage: the target must succeed on a wisdom saving throw or take additional radiant damage depending on level",
+				{
+					"type": "table",
+					"caption": "Lunar Strike Damage",
+					"colLabels": [
+						"Cleric Level",
+						"Moonfire Damage",
+						"Moonlight Damage"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-3 text-center",
+						"col-3 text-center"
+					],
+					"rows": [
+						[
+							"8th",
+							"1d8",
+							"1d2"
+						],
+						[
+							"11th",
+							"1d8",
+							"2d2"
+						],
+						[
+							"14th",
+							"2d8",
+							"2d3"
+						],
+						[
+							"17th",
+							"2d8",
+							"5d3"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Eclipse of Ill Omen",
+			"source": "EndelMoonBlade",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon Blade",
+			"subclassSource": "EndelMoonBlade",
+			"page": 1,
+			"header": 1,
+			"level": 17,
+			"entries": [
+				"At 17th level, as a bonus action you can call upon the power of the elder moon Nardal to eclipse all other light in the sky above you,",
+				"Its power is so great that it can form a portal to surround you even where the sky of Arkan can't be seen,",
+				"The eclipse can be seen in a 100 miles radius, all the covered area is covered in dim light.",
+				"An area of magical violet-red dim light forms in a 60-foot radius around you, as the center of the eclipse.",
+				"Choose any number of creatures inside the 60ft radius, those make saving throws with disadvantage.",
+				"When under the magical dim light area you have advantage on your weapon attack rolls",
+				"When you perform your Lunar Strike under the center of the eclipse you can forego the Moonlight Damage part of the attack to perform a Lunar Fall,",
+				"during which all hostile creatures except the inital target that are under the eclipse's 60ft radius must succeed on a wisdom saving throw or suffer 4d6 radiant damage.",
+				"This eclipse lasts while you concentrate (as if concentrating on a spell) for up to 1 minute.",
+				"Concentrating on this feature counts as concentrating on a Moon Domain spell for the purpose of your Mind of Two Moons feature.",
+				"Additionally, once per turn when you deal radiant damage to any creatures in this area of dim light,",
+				"you can mark one of those creatures until the eclipse ends (no action required). A creature marked in this way has its speed halved and can't regain hit points.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	]
+}

@@ -1,0 +1,398 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheMelodyofEverything",
+				"abbreviation": "tMoE",
+				"full": "The Melody of Everything",
+				"url": "",
+				"authors": [
+					"Endel"
+				],
+				"convertedBy": [
+					"Endel"
+				],
+				"color": "#600060"
+			}
+		],
+		"dateAdded": 1667607218,
+		"dateLastModified": 1689601324
+	},
+	"monster": [
+		{
+			"name": "Feymist Eagle",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"source": "TheMelodyofEverything",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 12,
+			"cha": 6,
+			"passive": 14,
+			"cr": "1/2",
+			"languages": [
+				"Giant Eagle",
+				"understands Common",
+				"Auran and Sylvan but can't speak them"
+			],
+			"languageTags": [
+				"GI",
+				"OTH",
+				"C",
+				"AU",
+				"CS",
+				"S"
+			],
+			"tokenUrl": "https://i.imgur.com/0STfZZm.png",
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain"
+			],
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The creature has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Feymist Dust",
+					"entries": [
+						"The creature's natural weapon attacks are treated as magical for the first 2 rounds of combat."
+					]
+				},
+				{
+					"name": "Feymist Path",
+					"entries": [
+						"1/day when under 30% health the creature can teleport to the furthest random open space up to 40ft away from the current location."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Keen Senses",
+				"Magic Weapons"
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"The eagle makes two attacks: one with its beak and one with its talons."
+					]
+				},
+				{
+					"name": "Beak.",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons.",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 3}) slashing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"vulnerable": [
+				{
+					"special": "Silver"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/0STfZZm.png"
+						}
+					}
+				]
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Don Chekhov (Awakened)",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Elder Feymist Eagle"
+				]
+			},
+			"source": "TheMelodyofEverything",
+			"alignment": null,
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "7d8 + 14",
+				"average": 45
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 12,
+			"cha": 6,
+			"passive": 13,
+			"cr": "3",
+			"languages": [
+				"Giant Eagle",
+				"understands Common",
+				"Auran and Sylvan but can't speak them"
+			],
+			"languageTags": [
+				"GI",
+				"OTH",
+				"C",
+				"AU",
+				"CS",
+				"S"
+			],
+			"tokenUrl": "https://i.imgur.com/0STfZZm.png",
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain"
+			],
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The creature has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Feymist Path",
+					"entries": [
+						"1/day when under 30% health the creature can teleport to the furthest random open space up to 40ft away from the current location."
+					]
+				},
+				{
+					"name": "Feymist Weave",
+					"entries": [
+						"The creature's natural weapons are permanently treated as magical."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Keen Senses",
+				"Magic Weapons"
+			],
+			"action": [
+				{
+					"name": "Beak.",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons.",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 6}) slashing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"vulnerable": [
+				{
+					"special": "Silver"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/0STfZZm.png"
+						}
+					}
+				]
+			},
+			"save": {
+				"str": "+7",
+				"dex": "+4",
+				"con": "+4",
+				"int": "+0",
+				"wis": "+3",
+				"cha": "+0"
+			},
+			"skill": {
+				"perception": "+3"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Don Chekhov",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Feymist Eagle"
+				]
+			},
+			"source": "TheMelodyofEverything",
+			"alignment": null,
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 31
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 12,
+			"cha": 6,
+			"passive": 13,
+			"cr": "1/2",
+			"languages": [
+				"Giant Eagle",
+				"understands Common",
+				"Auran and Sylvan but can't speak them"
+			],
+			"languageTags": [
+				"GI",
+				"OTH",
+				"C",
+				"AU",
+				"CS",
+				"S"
+			],
+			"tokenUrl": "https://i.imgur.com/0STfZZm.png",
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain"
+			],
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The creature has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Feymist Dust",
+					"entries": [
+						"The creature's natural weapon attacks are magical for the first 2 rounds of each combat"
+					]
+				},
+				{
+					"name": "Feymist Path",
+					"entries": [
+						"1/day when under 30% health the creature can teleport to the furthest random open space up to 40ft away from the current location."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Keen Senses",
+				"Magic Weapons"
+			],
+			"action": [
+				{
+					"name": "Beak.",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons.",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 6}) slashing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"vulnerable": [
+				{
+					"special": "Silver"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/0STfZZm.png"
+						}
+					}
+				]
+			},
+			"save": {
+				"str": "+6",
+				"dex": "+4",
+				"con": "+4",
+				"int": "+0",
+				"wis": "+3",
+				"cha": "+0"
+			},
+			"skill": {
+				"perception": "+3",
+				"athletics": "+6",
+				"stealth": "+4"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			]
+		}
+	]
+}

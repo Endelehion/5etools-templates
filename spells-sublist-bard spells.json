@@ -1,0 +1,41 @@
+{
+	"fileType": "spells-sublist",
+	"siteVersion": "1.186.0",
+	"name": "bard spells",
+	"saveId": "5d2e2f5b-062b-4f6c-b9f8-023eb1cb850f",
+	"items": [
+		{
+			"h": "charm%20person_phb"
+		},
+		{
+			"h": "mage%20hand_phb"
+		},
+		{
+			"h": "vicious%20mockery_phb"
+		},
+		{
+			"h": "minor%20illusion_phb"
+		},
+		{
+			"h": "healing%20word_phb"
+		},
+		{
+			"h": "tasha's%20hideous%20laughter_phb"
+		},
+		{
+			"h": "dissonant%20whispers_phb"
+		},
+		{
+			"h": "suggestion_phb"
+		},
+		{
+			"h": "shatter_phb"
+		},
+		{
+			"h": "invisibility_phb"
+		}
+	],
+	"sources": [
+		"PHB"
+	]
+}
