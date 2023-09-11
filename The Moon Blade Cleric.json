@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"full": "The Moon Blade Cleric",
-				"json": "EndelMoonBlade",
+				"json": "MoonBlade",
 				"abbreviation": "tMoE",
 				"authors": [
 					"Endel"
@@ -18,27 +18,27 @@
 	"subclass": [
 		{
 			"name": "Moon Blade Domain",
-			"source": "EndelMoonBlade",
+			"source": "MoonBlade",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"shortName": "Moon Blade",
 			"subclassFeatures": [
-				"Moon Blade Domain|Cleric|PHB|Moon Blade|EndelMoonBlade|1",
-				"Channel Divinity: Blessing of the Full Moon|Cleric|PHB|Moon Blade|EndelMoonBlade|2",
-				"Channel Divinity: Mind of the Twin Moons|Cleric|PHB|Moon Blade|EndelMoonBlade|6",
-				"Lunar Strike|Cleric|PHB|Moon Blade|EndelMoonBlade|8",
-				"Eclipse of Ill Omen|Cleric|PHB|Moon Blade|EndelMoonBlade|17"
+				"Moon Blade Domain|Cleric|PHB|Moon Blade|MoonBlade|1",
+				"Channel Divinity: Blessing of the Full Moon|Cleric|PHB|Moon Blade|MoonBlade|2",
+				"Channel Divinity: Mind of the Twin Moons|Cleric|PHB|Moon Blade|MoonBlade|6",
+				"Lunar Strike|Cleric|PHB|Moon Blade|MoonBlade|8",
+				"Eclipse of Ill Omen|Cleric|PHB|Moon Blade|MoonBlade|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Moon Blade Domain",
-			"source": "EndelMoonBlade",
+			"source": "MoonBlade",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Moon Blade",
-			"subclassSource": "EndelMoonBlade",
+			"subclassSource": "MoonBlade",
 			"page": 1,
 			"level": 1,
 			"entries": [
@@ -111,11 +111,11 @@
 		},
 		{
 			"name": "Channel Divinity: Blessing of the Full Moon",
-			"source": "EndelMoonBlade",
+			"source": "MoonBlade",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Moon Blade",
-			"subclassSource": "EndelMoonBlade",
+			"subclassSource": "MoonBlade",
 			"page": 1,
 			"header": 1,
 			"level": 2,
@@ -135,12 +135,31 @@
 			]
 		},
 		{
-			"name": "Channel Divinity: Mind of the Twin Moons",
-			"source": "EndelMoonBlade",
+			"name": "Moonfire",
+			"source": "MoonBlade",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Moon Blade",
-			"subclassSource": "EndelMoonBlade",
+			"subclassSource": "MoonBlade",
+			"page": 1,
+			"header": 1,
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you can infuse your {@spell moonbeam} spell with moon's fire.",
+				"each time you cast {@spell moonbeam} you can change the spell to one of the following: ",
+				"Blue Moon's Path: your {@spell moonbeam} spell deals additional 1d5 radiant damage once during the turn of its initial casting",
+				"Crimson Moon's Wrath: you focus your {@spell moonbeam} spell in a single spot, ",
+				"targeting only one creature and ending your concentration the same round it is cast (it still needs concentration for the initial casting),",
+				"it no longer has an area of effect, but it deals 1d10 additional radiant damage to one creature ending concentration on the same turn"
+			]
+		},
+		{
+			"name": "Channel Divinity: Mind of the Twin Moons",
+			"source": "MoonBlade",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon Blade",
+			"subclassSource": "MoonBlade",
 			"page": 1,
 			"header": 1,
 			"level": 6,
@@ -153,11 +172,11 @@
 		},
 		{
 			"name": "Lunar Strike",
-			"source": "EndelMoonBlade",
+			"source": "MoonBlade",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Moon Blade",
-			"subclassSource": "EndelMoonBlade",
+			"subclassSource": "MoonBlade",
 			"page": 1,
 			"header": 1,
 			"level": 8,
@@ -206,11 +225,11 @@
 		},
 		{
 			"name": "Eclipse of Ill Omen",
-			"source": "EndelMoonBlade",
+			"source": "MoonBlade",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Moon Blade",
-			"subclassSource": "EndelMoonBlade",
+			"subclassSource": "MoonBlade",
 			"page": 1,
 			"header": 1,
 			"level": 17,
