@@ -44,14 +44,19 @@
 			"page": 1,
 			"level": 1,
 			"entries": [
-				"The Moon Blades are clerics that sworn their blades to protect those who are in need, fight against tyranny and defend freedom at all costs.",
-				"The first Moon Blades were devoted to Seleinawen, the goddess of the moon. Guided by her kindness, ",
-				"in ancient times, they fought courageously to liberate the shadow elves from the tyranny of Solavon and his followers who deemed them tainted servants of chaos, deserving of either lifetime in imprisonment or death.",
-				"And again in the great war of Cryselthaar's Rising against the Vaerings whose only goal is the enslavement of all living things.",
-				"The Moon Blades' power come from their faith to Seleinawen, but a select few of the most renown warriors within the order have claimed that the source behind the Moon Blades' powers comes from another being,",
-				"far more powerful than Seleinawen. Such claims were highly controversial within the order though and in the end they were dismissed.",
-				"The Moon Blade's creed is the preservation of freedom, wherever they may travel through the realm they are always eager",
-				"to protect the weak and the oppressed, and they are not afraid to wield their blades to confront injustice wherever they may find it.",
+				"The Moon Blades are clerics that sworn their blades to protect the innocent, no matter who they are or where they hail from,",
+				" to fight against tyranny and to defend freedom at all costs.",
+				"The first Moon Blades were devoted to Seleinawen, the goddess of the moon. Guided by her kindness, in ancient times,",
+				" they fought courageously to liberate the shadow elves from the tyranny of Solavon and his followers who deemed them tainted servants of chaos,",
+				" deserving of either lifetime in imprisonment or death. Such tyranny was standing against everything that the Moon Blades stood for.",
+				" Thus they joined the Great Rebellion of the Shadow Elves, and after a great many battles the Shadow Elves of Arkan were finally free.",
+				"Eons passed and again their sacred duty called, and they joined yet again in another great war, of which the annals of history would later call Cryselthaar's Rise,",
+				" where several races of Cryselthaar united against the forces of the Vaerings whose only goal was the enslavement of all living things in Sunelreith, the Sunless Lands.",
+				"The Moon Blades' power comes from their faith to Seleinawen, but a select few of the most renown warriors within the order have once claimed that the source",
+				" behind the Moon Blades' powers comes from another being, far more powerful than Seleinawen. As expected, such claims were highly controversial within the order",
+				" and in the end they were dismissed altogether by the higher echelons, but rumours say that to this day there are those who although respect and love Seleinawen",
+				" for all she's done, they still believe in the existence of another, mysterious yet immensely powerful being that secretely guides them all throughout their lives.",
+				"The Moon Blade's highest ideal is the freedom of the individual, and they've proven through the ages that they are not afraid to wield their blades to confront tyranny wherever they may find it.",
 				{
 					"type": "table",
 					"caption": "Moon Blade Domain Spells",
@@ -148,20 +153,14 @@
 			"level": 3,
 			"entries": [
 				"Starting at 5th level you begin to uncover the secret spells of the Moon Blades, you can invoke the moon's arcane power to cast different spells depending on your level.",
-				"All Moon spells are considered domain spells and thus are treated as always been prepared.",
-				"Moon spells: ",
-				"Caster Level 3, Spell Level 2: Blue Moon's Path. Casting Time 1 action. Duration Concentration up to 1 min. Range (Self) 60ft line. You call upon the power of Lysdal, the blue moon of Arkan, which carves a 5ft wide path filling it with its silver light from your position up to 60ft in a straight line",
-				"deals extra radiant damage whenever you spend an action to either cast it or move it.",
-				"Moonbeam: Crimson Moon's Wrath: you focus your {@spell moonbeam} spell in a single spot, the spell no longer requires concentration, its duration changes to Instantaneous.",
-				"It no longer has an area of effect, but it deals extra radiant damage to one creature depending on.",
-				"the extra damage depends on character level:",
+				"All Moon spells are considered as Moon Blade domain spells and thus are treated as always been prepared.",		
 				{
 					"type": "table",
-					"caption": "Moonbeam Extra Damage",
+					"caption": "Moon Spells",
 					"colLabels": [
 						"Cleric Level",
-						"Blue Moon's Path Damage",
-						"Crimson Moon's Wrath Damage"
+						"Spell Level",
+						"Spell"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -170,19 +169,24 @@
 					],
 					"rows": [
 						[
+							"3th",
+							"2th",
+							"{@spell Blue Moon's Path|TheSongsOfArkan}"
+						],
+						[
 							"5th",
-							"1d5",
-							"1d10"
+							"3th",
+							"{@spell Moon's Fall|TheSongsOfArkan}"
 						],
 						[
-							"11th",
-							"1d8",
-							"2d2"
+							"7th",
+							"4th",
+							"{@spell Crimson Moon's Wrath|TheSongsOfArkan}"
 						],
 						[
-							"17th",
-							"2d8",
-							"5d3"
+							"9th",
+							"5th",
+							"{@spell Twin Moons' Dawn|TheSongsOfArkan}"
 						]
 					]
 				}

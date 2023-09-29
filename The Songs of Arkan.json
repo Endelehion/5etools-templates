@@ -18,6 +18,263 @@
 		"dateAdded": 1667607218,
 		"dateLastModified": 1689601324
 	},
+	"spell": [
+		{
+			"name": "Twin Moons' Dawn",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Moon Blade",
+							"shortName": "Moon Blade",
+							"source": "TheSongsOfArkan"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You raise your weapon to the heavens, beseeching the twin moons of Arkan for help in your hour of need. ",
+				"The moons cast their healing light in an area 60 feet around you. Any creature you choose in that area regains hit points equal to {@dice 3d8} + your spellcasting ability modifier. This spell has no effect on constructs. Any undead caught in the area must make a Constitution saving throw or suffer radiant damage equal to {@dice 3d8} + your spellcasting ability modifier.",
+				"If you can't see the night sky, either because it's daytime or because you're underground or in another plane, then a portal opens that casts the veil on the targets."
+			],
+			"source": "TheSongsOfArkan",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the healing increases by {@dice 1d8} for each slot level above 5th."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blue Moon's Path",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Moon Blade",
+							"shortName": "Moon Blade",
+							"source": "TheSongsOfArkan"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You call upon the power of Lysdal, the blue moon of Arkan, which carves a 5 feet wide path filling it with its silver light in front of you up to 60 feet in a straight line.",
+				"Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes {@damage 2d10} radiant damage. On a successful save, it takes half as much damage. Undead creatures have disadvantage on this saving throw. If it fails, it also becomes {@condition frightened} of you until the start of your next turn.",
+				"You can create a new line of radiance as your action on any turn until the spell ends.",
+				"For the duration, a crescent mote of silver radiance shines in your hand. It sheds dim light in a 30-foot radius. This light is moonlight."
+			],
+			"source": "TheSongsOfArkan",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Moon Stone"
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"abilityCheck": [
+				"constitution"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Crimson Moon's Wrath",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Evocation",
+							"shortName": "Moon Blade",
+							"source": "TheSongsOfArkan"
+						}
+					}
+				]
+			},
+			"entries": [
+				"Your weapon shines with a fiery red light. You strike the ground, creating a burst of crimson divine energy that ripples outward from you and marks all the creatures you choose within 30 feet of you.",
+				"You call upon the mighty wrath of Nardal, the crimson moon of Arkan, to rain its fiery crimson light upon all the marked creatures. Every marked creature must succeed on a Dexterity saving throw or take {@damage 5d6} fire damage, as well as {@damage 4d6} radiant. A creature that succeeds on its saving throw takes half as much damage.",
+				"If you can't see the night sky, either because it's daytime or because you're underground or in another plane, then a portal opens and rains down the fiery light on the marked targets."
+			],
+			"source": "TheSongsOfArkan",
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the fire damage or the radiant damage (your choice) increases by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"damageInflict": [
+				"fire",
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Moon's Fall",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Evocation",
+							"shortName": "Moon Blade",
+							"source": "TheSongsOfArkan"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You call upon the power of the Twin Moons of Arkan, to rain down stray asteroids orbiting them upon your enemies in a 20 feet radius around the point of impact, designated by you.",
+				"Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 3d12} bludgeoning damage. On a successful save, it takes half as much damage.",
+				"Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.",
+				"If you can't see the night sky, either because it's daytime or because you're underground or in another plane, then a portal opens and rains down the asteroids on the targets. If you are outside and can see the night sky the spell intensifies dealing an extra {@dice 1d12} of bludgeoning damage halved on a successful save."
+			],
+			"source": "TheSongsOfArkan",
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d12} for each slot level above 3rd."
+					]
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Moon Stone"
+			},
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		}
+	],
 	"monster": [
 		{
 			"name": "Feymist Eagle",
@@ -395,7 +652,7 @@
 			]
 		}
 	],
-    "subclass": [
+	"subclass": [
 		{
 			"name": "Moon Blade Domain",
 			"source": "TheSongsOfArkan",
@@ -405,11 +662,11 @@
 			"subclassFeatures": [
 				"Moon Blade Domain|Cleric|PHB|Moon Blade|TheSongsOfArkan|1",
 				"Channel Divinity: Blessing of the Full Moon|Cleric|PHB|Moon Blade|TheSongsOfArkan|2",
-				"Moonfire|Cleric|PHB|Moon Blade|TheSongsOfArkan|5",
+				"Lunaris Arcanum|Cleric|PHB|Moon Blade|TheSongsOfArkan|3",
 				"Channel Divinity: Mind of the Twin Moons|Cleric|PHB|Moon Blade|TheSongsOfArkan|6",
-				"Empowered Cantrips|Cleric|PHB|Moon Blade|TheSongsOfArkan|8",
 				"Lunar Strike|Cleric|PHB|Moon Blade|TheSongsOfArkan|8",
-				"Eclipse of Ill Omen|Cleric|PHB|Moon Blade|TheSongsOfArkan|17"
+				"Eclipse of Ill Omen|Cleric|PHB|Moon Blade|TheSongsOfArkan|17",
+				"Lysdal's Wings|Cleric|PHB|Moon Blade|TheSongsOfArkan|19"
 			]
 		}
 	],
@@ -424,14 +681,19 @@
 			"page": 1,
 			"level": 1,
 			"entries": [
-				"The Moon Blades are clerics that sworn their blades to protect those who are in need, fight against tyranny and defend freedom at all costs.",
-				"The first Moon Blades were devoted to Seleinawen, the goddess of the moon. Guided by her kindness, ",
-				"in ancient times, they fought courageously to liberate the shadow elves from the tyranny of Solavon and his followers who deemed them tainted servants of chaos, deserving of either lifetime in imprisonment or death.",
-				"And again in the great war of Cryselthaar's Rising against the Vaerings whose only goal is the enslavement of all living things.",
-				"The Moon Blades' power come from their faith to Seleinawen, but a select few of the most renown warriors within the order have claimed that the source behind the Moon Blades' powers comes from another being,",
-				"far more powerful than Seleinawen. Such claims were highly controversial within the order though and in the end they were dismissed.",
-				"The Moon Blade's creed is the preservation of freedom, wherever they may travel through the realm they are always eager",
-				"to protect the weak and the oppressed, and they are not afraid to wield their blades to confront injustice wherever they may find it.",
+				"The Moon Blades are clerics that sworn their blades to protect the innocent, no matter who they are or where they hail from,",
+				" to fight against tyranny and to defend freedom at all costs.",
+				"The first Moon Blades were devoted to Seleinawen, the goddess of the moon. Guided by her kindness, in ancient times,",
+				" they fought courageously to liberate the shadow elves from the tyranny of Solavon and his followers who deemed them tainted servants of chaos,",
+				" deserving of either lifetime in imprisonment or death. Such tyranny was standing against everything that the Moon Blades stood for.",
+				" Thus they joined the Great Rebellion of the Shadow Elves, and after a great many battles the Shadow Elves of Arkan were finally free.",
+				"Eons passed and again their sacred duty called, and they joined yet again in another great war, of which the annals of history would later call Cryselthaar's Rise,",
+				" where several races of Cryselthaar united against the forces of the Vaerings whose only goal was the enslavement of all living things in Sunelreith, the Sunless Lands.",
+				"The Moon Blades' power comes from their faith to Seleinawen, but a select few of the most renown warriors within the order have once claimed that the source",
+				" behind the Moon Blades' powers comes from another being, far more powerful than Seleinawen. As expected, such claims were highly controversial within the order",
+				" and in the end they were dismissed altogether by the higher echelons, but rumours say that to this day there are those who although respect and love Seleinawen",
+				" for all she's done, they still believe in the existence of another, mysterious yet immensely powerful being that secretely guides them all throughout their lives.",
+				"The Moon Blade's highest ideal is the freedom of the individual, and they've proven through the ages that they are not afraid to wield their blades to confront tyranny wherever they may find it.",
 				{
 					"type": "table",
 					"caption": "Moon Blade Domain Spells",
@@ -446,23 +708,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell faerie fire}, {@spell searing smite}"
+							"{@spell Faerie Fire}, {@spell Searing Smite}"
 						],
 						[
 							"3rd",
-							"{@spell healing spirit}, {@spell invisibility}"
+							"{@spell Healing Spirit|xge}, {@spell Invisibility}"
 						],
 						[
 							"5th",
-							"{@spell haste}, {@spell Major Image}"
+							"{@spell Haste}, {@spell Major Image}"
 						],
 						[
 							"7th",
-							"{@spell greater invisibility}, {@spell Hallucinatory Terrain}"
+							"{@spell Greater Invisibility}, {@spell Polymorph}"
 						],
 						[
 							"9th",
-							"{@spell seeming}, {@spell greater restoration}"
+							"{@spell Seeming}, {@spell Greater Restoration}"
 						]
 					]
 				},
@@ -502,11 +764,11 @@
 			"header": 1,
 			"level": 2,
 			"entries": [
-				"You use your Channel Divinity to dance and invoke the power of the moonlight for 1 minute, gaining the following benefits:",
+				"You use your Channel Divinity to invoke the power of the moonlight for 1 minute, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Starting at 2nd level, you can use your Channel Divinity to infuse your allies with bestial power.",
+						"Starting at 2nd level, you can use your Channel Divinity to infuse your allies with lunar power.",
 						"As an action, you instill a willing creature of your choice within 30 feet of you that you can see with one of the following blessings of your choice:",
 						"Blessing of the Blue Moon. For 1 hour, the blessed creature's speed increases by 10 feet,",
 						"and it has advantage on Wisdom (Perception or Survival) checks involving smell or made to track a creature.",
@@ -527,42 +789,41 @@
 			"header": 1,
 			"level": 3,
 			"entries": [
-				"Starting at 5th level you begin to uncover the secret spells of the Moon Blades, you can invoke the moon's arcane power to cast different spells depending on your level.",
-				"All Moon spells are considered domain spells and thus are treated as always been prepared.",
-				"Moon spells: ",
-				"Caster Level 3, Spell Level 2: Blue Moon's Path. Casting Time 1 action. Duration Concentration up to 1 min. Range (Self) 60ft line. You call upon the power of Lysdal, the blue moon of Arkan, which carves a 5ft wide path filling it with its silver light from your position up to 60ft in a straight line",
-				"deals extra radiant damage whenever you spend an action to either cast it or move it.",
-				"Moonbeam: Crimson Moon's Wrath: you focus your {@spell moonbeam} spell in a single spot, the spell no longer requires concentration, its duration changes to Instantaneous.",
-				"It no longer has an area of effect, but it deals extra radiant damage to one creature depending on.",
-				"the extra damage depends on character level:",
+				"Starting at 2nd level you begin to uncover the secret spells of the Moon Blades, you can invoke the moon's arcane power to cast different spells depending on your level.",
+				"All Moon spells are considered as Moon Blade domain spells and thus are treated as always been prepared.",		
 				{
 					"type": "table",
-					"caption": "Moonbeam Extra Damage",
+					"caption": "Moon Spells",
 					"colLabels": [
 						"Cleric Level",
-						"Blue Moon's Path Damage",
-						"Crimson Moon's Wrath Damage"
+						"Spell Level",
+						"Spell"
 					],
 					"colStyles": [
 						"col-2 text-center",
-						"col-3 text-center",
-						"col-3 text-center"
+						"col-2 text-center",
+						"col-8"
 					],
 					"rows": [
 						[
+							"3th",
+							"2nd",
+							"{@spell Blue Moon's Path|TheSongsOfArkan}"
+						],
+						[
 							"5th",
-							"1d5",
-							"1d10"
+							"3th",
+							"{@spell Moon's Fall|TheSongsOfArkan}"
 						],
 						[
-							"11th",
-							"1d8",
-							"2d2"
+							"7th",
+							"4th",
+							"{@spell Crimson Moon's Wrath|TheSongsOfArkan}"
 						],
 						[
-							"17th",
-							"2d8",
-							"5d3"
+							"9th",
+							"5th",
+							"{@spell Twin Moons' Dawn|TheSongsOfArkan}"
 						]
 					]
 				}
@@ -610,8 +871,8 @@
 					],
 					"colStyles": [
 						"col-2 text-center",
-						"col-3 text-center",
-						"col-3 text-center"
+						"col-2 text-center",
+						"col-2 text-center"
 					],
 					"rows": [
 						[
@@ -662,6 +923,22 @@
 				"Additionally, once per turn when you deal radiant damage to any creatures in this area of dim light,",
 				"you can mark one of those creatures until the eclipse ends (no action required). A creature marked in this way has its speed halved and can't regain hit points.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Lysdal's Wings",
+			"source": "TheSongsOfArkan",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon Blade",
+			"subclassSource": "TheSongsOfArkan",
+			"page": 1,
+			"header": 1,
+			"level": 19,
+			"entries": [
+				"At 19th level, once per long rest you can call upon Lysdal, the blue moon of Arkan to infuse you with her divine power.",
+				" You sprout angelic wings from your back giving you the power to soar through the heavens. The wings are light blue, ",
+				"they radiate a dim blue light and you can see tiny blue motes of divine magic constantly flying off them. For 1 hour you are able to fly with 60 feet flying speed."
 			]
 		}
 	]
